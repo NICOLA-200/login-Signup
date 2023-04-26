@@ -15,7 +15,7 @@ body {
      height:500px;
      background: red;
      overflow: hidden;
-     background: url(1.jpg) no-repeat center/cover;
+     background: url(download.jfif ) no-repeat center/cover;
      border-radius: 10px;
      box-shadow: 5px 20px 50px #000;
 
@@ -41,8 +41,22 @@ label {
      font-weight:bold;
      cursor:pointer;
      transition:1s ease-in;
+    
      
 }
+
+label:first-of-type:hover {
+     border-bottom: 1px solid white;
+     border-radius: 20px;
+}
+
+#but:hover {
+
+     border-bottom: 3px solid #0f0c28;
+     border-radius: 20px;
+}
+
+
 
 input {
      width: 60%;
@@ -93,7 +107,7 @@ button:hover {
 
 .login label {
      color: #573b8a;
-     transform:  scale(.6);
+     transform:scale(.6);
 }
 
 #chk:checked ~ .login {
