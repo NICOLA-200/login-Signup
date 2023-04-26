@@ -1,6 +1,7 @@
 body {
      margin: 0;
      padding: 0;
+     display: flex;
      justify-content: center;
      align-items: center;
      min-height: 100vh;
@@ -33,10 +34,10 @@ body {
 
 label {
      color: #fff;
-     font-size: 2.3 rem;
+     font-size: 2.3em;
      justify-content: center;
      display: flex;
-     margin: 6                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     0px;
+     margin: 60px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
      font-weight:bold;
      cursor:pointer;
      transition:1s ease-in;
@@ -84,8 +85,8 @@ button:hover {
 .login {
      height:460px;
      background: #eee;
-     border-radius: 60% 10%;
-     transform:  translate(-100px);
+     border-radius: 60% / 10%;
+     transform:  translateY(-180px);
      transition:  .8s ease-in-out;
 
 }
@@ -96,11 +97,16 @@ button:hover {
 }
 
 #chk:checked ~ .login {
-     transform: translate(-500px);
+     transform: translateY(-500px);
 }
 
 #chk:checked ~ .login label
   {
      transform:  scale(1);
   }
-  
+
+  #chk:checked ~ .signup label {
+
+     transform: scale(.6);
+  }
+
