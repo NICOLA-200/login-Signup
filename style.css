@@ -6,12 +6,13 @@ body {
      align-items: center;
      min-height: 100vh;
      font-family:'Jost',sans-serif;
-     background: linear-gradient(to bottom, #0f0c28,#302b63,#24243e);
+     background: linear-gradient(to bottom, #0e0a4a,#332b63,#26243e);
 
 }
 
 .main {
-     width: 350px;
+     width: 30%;
+     min-width: 250px;
      height:500px;
      background: red;
      overflow: hidden;
@@ -37,7 +38,7 @@ label {
      font-size: 2.3em;
      justify-content: center;
      display: flex;
-     margin: 60px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+     margin: 2rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
      font-weight:bold;
      cursor:pointer;
      transition:1s ease-in;
@@ -64,7 +65,7 @@ input {
      background: #cedede;
      justify-content: center;
      display: flex;
-     margin: 20px auto;
+     margin: 1.2rem auto;
      padding: 10px;
      border: none;
      outline: none;
@@ -100,7 +101,7 @@ button:hover {
      height:460px;
      background: #eee;
      border-radius: 60% / 10%;
-     transform:  translateY(-180px);
+     transform:  translateY(-150px);
      transition:  .8s ease-in-out;
 
 }
@@ -111,7 +112,7 @@ button:hover {
 }
 
 #chk:checked ~ .login {
-     transform: translateY(-500px);
+     transform: translateY(-480px);
 }
 
 #chk:checked ~ .login label
